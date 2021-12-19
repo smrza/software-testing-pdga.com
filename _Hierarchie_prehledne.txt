@@ -1,0 +1,110 @@
+----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+AUTOMATIZOVANÉ – počet 40 (+1 manuální registrace)
+----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+TS001 (ID) – Hlavní stránka – https://www.pdga.com/
+	TS001_000 (ID) – Obecné
+		TC001_000_001 (ID) – Ověření načtení stránky
+		TC001_000_002 (ID) – Kontrola loga
+		TC001_000_003 (ID) – Kontrola odkazů na sociální sítě
+		TC001_000_004 (ID) – Kontrola Login / Join & Renew / Contact
+		TC001_000_005 (ID) – Kontrola novinek a oznámení
+		TC001_000_006 (ID) – Kontrola aktuálních eventů
+		TC001_000_007 (ID) – Kontrola Twitter Live Updates
+		TC001_000_008 (ID) – Kontrola přehrání Featured Videa
+	TS001_001 (ID) – Hlavní panel
+		TC001_001_001 (ID) – Ověření funkčnosti Home
+		TC001_001_002 (ID) – Ověření funkčnosti About
+		TC001_001_003 (ID) – Ověření funkčnosti Membership
+		TC001_001_004 (ID) – Ověření funkčnosti Events
+		TC001_001_005 (ID) – Ověření funkčnosti Courses
+		TC001_001_006 (ID) – Ověření funkčnosti Rules
+		TC001_001_007 (ID) – Ověření funkčnosti Media
+		TC001_001_008 (ID) – Ověření funkčnosti International
+		TC001_001_009 (ID) – Ověření funkčnosti More
+	TS001_002 (ID) – Odkazy zápatí stránky
+		TC001_002_001 (ID) – Testování odkazů Discgolf
+		TC001_002_002 (ID) – Testování odkazů Membership
+		TC001_002_003 (ID) – Testování odkazů Tour
+		TC001_002_004 (ID) – Testování odkazů Media
+		TC001_002_005 (ID) – Testování odkazů More
+----------------------------------------------------------------------------------------------
+TS002 (ID) – Hráči – https://www.pdga.com/players
+	TS002_000 (ID) – Vyhledávání
+		TC002_000_001 (ID) – Podle jména
+		TC002_000_002 (ID) – Podle příjmení
+		TC002_000_003 (ID) – Podle PDGA čísla
+		TC002_000_004 (ID) – Podle statusu/pohlaví/klasifikace/typu
+		TC002_000_005 (ID) – Podle města/státu/země/kontitentu
+		TC002_000_006 (ID) – Test odkazu na vyhledaného hráče
+		TC002_000_007 (ID) – Ověření vzestupného/sestupného seřazení vyhledaných hráčů
+		TC002_000_008 (ID) – Otestování další/předchozí/číslicových tlačítek vyhledávače
+	TS002_001 (ID) – Statistiky – https://www.pdga.com/players/stats
+		TC002_001_001 (ID) – Vyhledávání podle roku/klasifikace/pohlaví
+		TC002_001_002 (ID) – Testování vzestupného/sestupného seřazení statistik
+----------------------------------------------------------------------------------------------
+TS003 (ID) – Uživatelský účet – https://www.pdga.com/user/register?destination=homepage
+	TS003_000 (ID) – Registrace
+		TC003_000_001 (ID) – Registrace (MANUÁLNÍ)
+		TC003_000_002 (ID) – Registrace bez vyplněných polí
+		TC003_000_003 (ID) – Testování správné formy emailu při registraci
+	TS003_001 (ID) – Přihlášení
+		TC003_001_001 (ID) – Login pouze s emailem
+		TC003_001_002 (ID) – Login pouze s heslem
+		TC003_001_003 (ID) – Login se špatnými údaji
+		TC003_001_004 (ID) – Úspěšné přihlášení uživatele s emailem a heslem
+	TS003_002 (ID) – Doplňěk
+		TC003_002_001 (ID) – Najetí do uživatelského účtu
+		TC003_002_002 (ID) – Úspěšné odhlášení účtu
+----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+MANUÁLNÍ – počet 31
+----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+TS004 (ID) – Pravidla discgolfu - https://www.pdga.com/rules/official-rules-disc-golf
+	TC004_001 (ID) – Stažení pravidel
+	TC004_002 (ID) – Prohlížení pravidel online
+----------------------------------------------------------------------------------------------
+TS005 (ID) – Události 
+	TS005_000 (ID) – Rozpis turnajů – https://www.pdga.com/tour/events
+		TC005_000_001 (ID) – Ověření funkčnosti tlačítek pro vyhledávání
+		TC005_000_002 (ID) – Ověření vzestupného/sestupného seřazení vyhledaných turnajů
+		TC005_000_003 (ID) – Test odkazů na turnaje
+	TS005_001 (ID) – Rozpis ligy – https://www.pdga.com/leagues/events
+		TC005_001_001 (ID) – Ověření funkčnosti tlačítek pro vyhledávání
+		TC005_001_002 (ID) – Ověření vzestupného/sestupného seřazení vyhledaných turnajů
+		TC005_001_003 (ID) – Test odkazů na turnaje
+	TS005_002 (ID) – Rozšířené vyhledávání událostí – https://www.pdga.com/tour/search
+		TC005_002_001 (ID) – Vyhledávání podle jména události
+		TC005_002_002 (ID) – Vyhledávání podle čísla PDGA režiséra turnaje
+		TC005_002_003 (ID) – Vyhledávání podle data
+----------------------------------------------------------------------------------------------
+TS006 (ID) – Prohlížení hřišť – https://www.pdga.com/course-directory/advanced
+	TC006_001 (ID) – Vyhledání hřiště podle jména
+	TC006_002 (ID) – Vyhledání hřiště podle země/města/PSČ
+	TC006_003 (ID) – Vyhledání podle ostatních detailů hřišť
+	TC006_004 (ID) – Prohlížení hřišť v České republice
+----------------------------------------------------------------------------------------------
+TS007 (ID) – Možnosti uživatelského účtu
+	TS007_000 (ID) – Základní
+		TC007_000_001 (ID) – Změna uživatelského jména
+		TC007_000_002 (ID) – Změna hesla
+		TC007_000_003 (ID) – Změna nastavení oznámení
+		TC007_000_004 (ID) – Nahrání uživatelské fotky
+		TC007_000_005 (ID) – Zkouška možností komentování medií
+		TC007_000_006 (ID) – Přidání oficiálního hřiště 
+	TS007_001 (ID) – Přidání medií –  https://www.pdga.com/media/submission
+		TC007_001_001 (ID) – Odeslání nevyplněného formuláře
+		TC007_001_002 (ID) – Odeslání vyplněného formuláře
+		TC007_001_003 (ID) – Odeslání z části vyplněného formuláře (pouze jméno a popis)
+----------------------------------------------------------------------------------------------
+TS008 (ID) – Ostatní
+	TC008_001 (ID) – Ověření funkčnosti FAQ – https://www.pdga.com/faq
+	TC008_002 (ID) – Testování mapy událostí – https://www.pdga.com/tour/events/upcoming
+	TC008_003 (ID) – Testování mapy hřišť – https://www.pdga.com/course-directory
+	TC008_004 (ID) – Stažení discgolfového kodexu – https://www.pdga.com/code
+	TC008_005 (ID) – Ověřování funkčnosti PDGA rádia – https://www.pdga.com/radio
+	TC008_006 (ID) – Spouštění videí – https://www.pdga.com/videos
+	TC008_007 (ID) – Kontrola žádosti o nové heslo 
+----------------------------------------------------------------------------------------------
